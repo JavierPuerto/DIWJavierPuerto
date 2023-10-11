@@ -1,0 +1,59 @@
+body {
+    background-image: url(../images/bg3.jpg);
+    font-family: 'Arial', sans-serif;
+    background-color: #f7faf6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #4a7d5f;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu_admin-button,
+.cerrar_sesion-button,
+.configurar_perfil-button,
+.mostrar_datos-button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.menu_admin-button {
+    background-color: #4a7d5f;
+}
+
+.cerrar_sesion-button {
+    background-color: #f44336;
+}
+
+.configurar_perfil-button {
+    background-color: #5e8b7e;
+}
+
+.mostrar_datos-button {
+    background-color: #4c7d67;
+}
+
+.foto {
+    display: block;
+    margin: 20px auto;
+   
+}
+
+.foto img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #4a7d5f;
+}
+

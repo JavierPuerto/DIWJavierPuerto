@@ -1,0 +1,133 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7faf6; /* Un verde suave para representar la naturaleza */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #4a7d5f; /* Un tono verde oscuro */
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #4a7d5f; /* Un tono verde oscuro */
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #dbeed7; /* Un verde más claro para alternar filas */
+}
+
+tr:hover {
+  background-color: #c2e4c2; /* Un verde aún más claro para resaltar al pasar el ratón */
+}
+
+form input[type="submit"] {
+  background-color: #8db580; /* Un verde natural */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+  button{
+  background-color: #8db580; /* Un verde natural */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #6d9b72; /* Un verde un poco más oscuro al pasar el ratón */
+}
+
+.alert {
+  padding: 12px;
+  background-color: #f68d8d; /* Un tono rojizo */
+  color: #fff;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.alert button {
+  background-color: #4a7d5f; /* El mismo verde oscuro utilizado antes */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.alert button:hover {
+  background-color: #355d44; /* Un tono más oscuro del verde al pasar el ratón */
+}
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin: 0 3px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+  background-color: #eee;
+}
+
+.pagination .active {
+  background-color: #333;
+  color: #fff;
+}
+.seleccionar_todo input[type="button"] {
+  /* Aquí puedes agregar tus estilos personalizados para el botón "Seleccionar todo" */
+  background-color: #8db580;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 690px;
+ position: absolute;
+ margin-top: -38px;
+ border-radius: 5px;
+ padding:  10px 20px;
+  /* Agrega cualquier otro estilo que desees */
+}

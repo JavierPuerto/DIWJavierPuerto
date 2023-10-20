@@ -19,6 +19,7 @@
     $domicilio=$_POST['domicilio'];
     $poblacion=$_POST['poblacion'];
     $provincia=$_POST['provincia'];
+    $poblacion=$_POST['municipio'];
     $nif=$_POST['nif'];
     $numero_telefono=$_POST['numero_telefono'];
     $numero = empty($numero_telefono) ? 0 : $numero_telefono; //empty() para verificar si $numero_telefono está vacío. Si está vacío, se asigna 0 a la variable $numero. De lo contrario, se asigna el valor de $numero_telefono a $numero
@@ -42,8 +43,8 @@
     $query="UPDATE usuarios SET Usuario_apellido1='$apellido1',
                                 Usuario_apellido2='$apellido2',
                                 Usuario_domicilio='$domicilio',
-                                Usuario_poblacion='$poblacion',
                                 Usuario_provincia='$provincia',
+                                Usuario_poblacion='$poblacion',
                                 Usuario_nif='$nif',
                                 Usuario_numero_telefono='$numero',
                                 Usuario_fotografia='$imagen_usuario'

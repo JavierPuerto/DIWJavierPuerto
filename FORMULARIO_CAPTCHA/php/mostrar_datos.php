@@ -28,6 +28,23 @@
     <title>Mostrar Datos</title>
     <link rel="stylesheet" href="../assets/css/estiloMostrar_datos.css">
 </head>
+<style>
+        body {
+            animation: changeBackground 10s infinite alternate;
+        }
+
+        @keyframes changeBackground {
+            0% {
+                background-color: #5aac2d; 
+            }
+            50%{
+                background-color :#33ff57;
+            }
+            100% {
+                background-color: #33ff9c; 
+            }
+        }
+    </style>
 <body>
     <main>
         <div class="contenedor__todo">

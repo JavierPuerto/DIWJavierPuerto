@@ -6,13 +6,7 @@
     font-family: sans-serif;
 }
 
-body{
-    background-image: url(../images/bg3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
+
 
 main{
     width: 100%;
@@ -50,7 +44,7 @@ main{
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: #46A2FD;
+    color: #4caf50;
 }
 
 .formulario__perfil form input,label{
@@ -68,7 +62,8 @@ main{
     margin-top: 40px;
     border: none;
     font-size: 14px;
-    background: #46A2FD;
+    background-color: #179537; /* Cambia el fondo de los botones a verde */
+    border-color: #4caf50; /* Cambia el color del borde del botón a verde */
     color: white;
     font-weight: 600;
     cursor: pointer;
@@ -78,9 +73,9 @@ main{
 .volver_inicio-button {
     position: absolute;
     left: 200px;
-    bottom: -343px;
+    bottom: -329px;
     padding: 10px 20px;
-    background-color:  #46A2FD;
+    background-color:  #179537;
     border: 2px solid #fff;
     color: white;
     font-weight: 600;
@@ -98,7 +93,7 @@ main{
     left: 20px;
     bottom: 30px;
     padding: 10px 20px;
-    background-color:  #46A2FD;
+    background-color:  #179537;
     border: 2px solid #fff;
     color: white;
     font-weight: 600;
@@ -114,4 +109,18 @@ main{
       width: auto;  
       font-family: sans-serif;
   }
+  select {
+    width: 100%; /* Establece un ancho del 100% del contenedor */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo cuando el select está desplegado */
+select:focus {
+    border-color: #179537; /* Cambia el color del borde a verde */
+    box-shadow: 0 0 5px rgba(23, 149, 55, 0.5); /* Cambia la sombra a un tono de verde */
+}
   

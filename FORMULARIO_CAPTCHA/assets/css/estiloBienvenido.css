@@ -1,10 +1,4 @@
-body {
-    background-image: url(../images/bg3.jpg);
-    font-family: 'Arial', sans-serif;
-    background-color: #f7faf6;
-    margin: 0;
-    padding: 0;
-}
+
 
 h1 {
     color: #4a7d5f;
@@ -56,4 +50,5 @@ h1 {
     object-fit: cover;
     border: 4px solid #4a7d5f;
 }
+
 

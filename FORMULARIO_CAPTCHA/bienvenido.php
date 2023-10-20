@@ -45,6 +45,23 @@
     <link rel="stylesheet" href="assets/css/estiloBienvenido.css">
     <title>Formulario 2DAW</title>
 </head>
+<style>
+        body {
+            animation: changeBackground 10s infinite alternate;
+        }
+
+        @keyframes changeBackground {
+            0% {
+                background-color: #5aac2d; 
+            }
+            50%{
+                background-color :#33ff57;
+            }
+            100% {
+                background-color: #33ff9c; 
+            }
+        }
+    </style>
 <body>
     <h1>Bienvenido</h1>
     <?php

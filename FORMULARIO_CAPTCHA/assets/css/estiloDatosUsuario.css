@@ -1,9 +1,18 @@
 
+@keyframes cambioColor {
+  0% {
+      background-color: #5aac2d; /* Primer color */
+  }
+  50% {
+      background-color: #33ff57; /* Segundo color */
+  }
+  100% {
+      background-color: #33ff9c; /* Tercer color */
+  }
+}
+
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f7faf6; /* Un verde suave para representar la naturaleza */
-  margin: 0;
-  padding: 0;
+  animation: cambioColor 10s infinite alternate; /* Cambiará de color cada 10 segundos */
 }
 
 .container {
@@ -13,6 +22,7 @@ body {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 h1 {
@@ -26,12 +36,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   margin-bottom: 20px;
+  table-layout: fixed; /* Añade esta línea para fijar el ancho de la tabla */
 }
 
 th, td {
   padding: 12px;
   text-align: center;
   border-bottom: 1px solid #ccc;
+  word-wrap: break-word; /* Añade esta línea para permitir el corte de palabras */
 }
 
 th {
@@ -55,6 +67,7 @@ form input[type="submit"] {
   cursor: pointer;
   border-radius: 4px;
   font-size: 16px;
+  margin-right: 10px;
 }
   button{
   background-color: #8db580; /* Un verde natural */
@@ -106,11 +119,12 @@ form input[type="submit"]:hover {
   padding: 5px 10px;
   margin: 0 3px;
   border-radius: 5px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, color 0.3s; /* Agregamos transiciones para el color de fondo y el color de texto */
 }
 
 .pagination a:hover {
   background-color: #eee;
+  color: #555;
 }
 
 .pagination .active {
@@ -118,16 +132,19 @@ form input[type="submit"]:hover {
   color: #fff;
 }
 .seleccionar_todo input[type="button"] {
-  /* Aquí puedes agregar tus estilos personalizados para el botón "Seleccionar todo" */
   background-color: #8db580;
   color: #fff;
   border: none;
   font-size: 16px;
   cursor: pointer;
-  margin-left: 690px;
- position: absolute;
- margin-top: -38px;
- border-radius: 5px;
- padding:  10px 20px;
-  /* Agrega cualquier otro estilo que desees */
+  margin-left: 750px;
+  position: absolute;
+  margin-top: -44px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: opacity 0.3s; /* Agregamos una transición de opacidad */
+}
+
+.seleccionar_todo input[type="button"]:hover {
+  opacity: 0.8; /* Cambiamos la opacidad al pasar el ratón para crear un efecto de animación de desvanecimiento */
 }

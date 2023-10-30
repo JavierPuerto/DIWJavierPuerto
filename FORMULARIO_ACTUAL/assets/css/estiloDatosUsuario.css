@@ -1,0 +1,151 @@
+
+
+@keyframes cambioColor {
+  0% {
+      background-color: #5aac2d; /* Primer color */
+  }
+  50% {
+      background-color: #33ff57; /* Segundo color */
+  }
+  100% {
+      background-color: #33ff9c; /* Tercer color */
+  }
+}
+
+body {
+  animation: cambioColor 10s infinite alternate; /* Cambiará de color cada 10 segundos */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+  color: #4a7d5f; /* Un tono verde oscuro */
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+  table-layout: fixed; /* Añade esta línea para fijar el ancho de la tabla */
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  word-wrap: break-word; /* Añade esta línea para permitir el corte de palabras */
+}
+
+th {
+  background-color: #4a7d5f; /* Un tono verde oscuro */
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #dbeed7; /* Un verde más claro para alternar filas */
+}
+
+tr:hover {
+  background-color: #c2e4c2; /* Un verde aún más claro para resaltar al pasar el ratón */
+}
+
+form input[type="submit"] {
+  background-color: #8db580; /* Un verde natural */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+  button{
+  background-color: #8db580; /* Un verde natural */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #6d9b72; /* Un verde un poco más oscuro al pasar el ratón */
+}
+
+.alert {
+  padding: 12px;
+  background-color: #f68d8d; /* Un tono rojizo */
+  color: #fff;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.alert button {
+  background-color: #4a7d5f; /* El mismo verde oscuro utilizado antes */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.alert button:hover {
+  background-color: #355d44; /* Un tono más oscuro del verde al pasar el ratón */
+}
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin: 0 3px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s; /* Agregamos transiciones para el color de fondo y el color de texto */
+}
+
+.pagination a:hover {
+  background-color: #eee;
+  color: #555;
+}
+
+.pagination .active {
+  background-color: #333;
+  color: #fff;
+}
+.seleccionar_todo input[type="button"] {
+  background-color: #8db580;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 750px;
+  position: absolute;
+  margin-top: -44px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: opacity 0.3s; /* Agregamos una transición de opacidad */
+}
+
+.seleccionar_todo input[type="button"]:hover {
+  opacity: 0.8; /* Cambiamos la opacidad al pasar el ratón para crear un efecto de animación de desvanecimiento */
+}

@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.formulario__perfil{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top:250px;
+    left: 180px;
+}
+
+.formulario__perfil form{
+    width: 100%;
+    padding: 40px 20px 150px;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.formulario__perfil form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4caf50;
+}
+
+.formulario__perfil form input,label{
+    width: 100%;
+    margin-top: 14px;
+    padding: 10px;
+    border: none;
+    background-color: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.formulario__perfil form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background-color: #179537; /* Cambia el fondo de los botones a verde */
+    border-color: #4caf50; /* Cambia el color del borde del botón a verde */
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+.volver_inicio-button {
+    position: absolute;
+    left: 200px;
+    bottom: -329px;
+    padding: 10px 20px;
+    background-color:  #179537;
+    border: 2px solid #fff;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 300ms, color 300ms;
+}
+
+.volver_inicio:hover {
+    background-color: #fff;
+    color: #46A2FD;
+}
+
+.aceptar {
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    padding: 10px 20px;
+    background-color:  #179537;
+    border: 2px solid #fff;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 300ms, color 300ms;   
+}
+
+.foto{
+    position: absolute;
+      left: 20px;
+      bottom: 90px;
+      padding: 10px 20px;
+      width: auto;  
+      font-family: sans-serif;
+  }
+  select {
+    width: 100%; /* Establece un ancho del 100% del contenedor */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo cuando el select está desplegado */
+select:focus {
+    border-color: #179537; /* Cambia el color del borde a verde */
+    box-shadow: 0 0 5px rgba(23, 149, 55, 0.5); /* Cambia la sombra a un tono de verde */
+}

@@ -1,0 +1,58 @@
+/* CSS personalizado para la página.php */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario__perfil {
+    width: 100%;
+    max-width: 380px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.formulario__perfil form h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #4a7d5f;
+}
+
+.formulario__perfil form input {
+    width: 100%;
+    margin-top: 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.formulario__perfil form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    background: #4a7d5f;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Añade reglas de estilo adicionales según sea necesario */
